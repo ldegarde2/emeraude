@@ -1,0 +1,388 @@
+body{
+  justify-content: center;
+}
+nav{
+  background-color: rgb(33, 33, 245);
+}
+.div{
+  padding-top: 30px;
+}
+#test{
+  font-size: 50px ;
+  color: rgb(238, 243, 235);
+  font-style: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:10px auto;
+}
+.video {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+video {
+  width: 400px;
+  height: auto;
+}
+.p{
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-justify: auto;
+  text-align: center;
+  padding-top:20px ;
+}
+.top{
+  background-color: aqua;
+  width: 100%;
+  padding: 10px auto;
+}
+
+
+.rounded{
+  height: 100%;
+  width: 100%;
+  border-radius: 100%
+}
+#mouf{
+  height: 400px;
+}
+.presente{
+  display: flex;
+  font-size: 30px;
+  margin: 10px;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.presente div{
+  margin:auto;
+  background-color: rgba(243, 239, 31, 0.5);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.presente div:hover{
+  margin:auto;
+  background-color: rgb(245, 76, 203,0.4);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.item img{
+  height: 70%;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(5, 26, 95);
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 40px;
+}
+.item img {
+  width: 100%;
+  height: 350px;
+  transition: transform 0.3s ease;
+}
+.sous{
+  font-size: 30px;
+  text-align: center;
+  text-justify: auto;
+  color: rgb(232, 245, 45);
+}
+.item:hover img {
+  transform: scale(1.1);
+}
+.item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.item:hover .overlay {
+  opacity: 1;
+}
+.titre{
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-style: bold;
+  font-size: 50px;
+  text-align: center;
+  box-shadow: 0 10px 10px;
+  color: #0d0581;
+  padding-top: 40px;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 40px;
+  padding: auto;
+  padding-left: 50px;
+}
+.promo p{
+  font-size:2;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p{
+  font-size: 20px;
+}
+.promo{
+  padding:50px;
+  background-image: linear-gradient(52deg, rgba(163, 163, 163, 0.09) 0%, rgba(163, 163, 163, 0.09) 33.3%,rgba(100, 100, 100, 0.09) 33.3%, rgba(100, 100, 100, 0.09) 66.6%,rgba(162, 162, 162, 0.09) 66.6%, rgba(162, 162, 162, 0.09) 99%),linear-gradient(258deg, rgba(193, 193, 193, 0.06) 0%, rgba(193, 193, 193, 0.06) 33.3%,rgba(169, 169, 169, 0.06) 33.3%, rgba(169, 169, 169, 0.06) 66.6%,rgba(92, 92, 92, 0.06) 66.6%, rgba(92, 92, 92, 0.06) 99%),linear-gradient(129deg, rgba(45, 45, 45, 0.03) 0%, rgba(45, 45, 45, 0.03) 33.3%,rgba(223, 223, 223, 0.03) 33.3%, rgba(223, 223, 223, 0.03) 66.6%,rgba(173, 173, 173, 0.03) 66.6%, rgba(173, 173, 173, 0.03) 99%),linear-gradient(280deg, rgba(226, 226, 226, 0.06) 0%, rgba(226, 226, 226, 0.06) 33.3%,rgba(81, 81, 81, 0.06) 33.3%, rgba(81, 81, 81, 0.06) 66.6%,rgba(186, 186, 186, 0.06) 66.6%, rgba(186, 186, 186, 0.06) 99%),linear-gradient(85deg, rgba(225, 225, 225, 0.04) 0%, rgba(225, 225, 225, 0.04) 33.3%,rgba(95, 95, 95, 0.04) 33.3%, rgba(95, 95, 95, 0.04) 66.6%,rgba(39, 39, 39, 0.04) 66.6%, rgba(39, 39, 39, 0.04) 99%),linear-gradient(128deg, rgba(184, 184, 184, 0.06) 0%, rgba(184, 184, 184, 0.06) 33.3%,rgba(0, 0, 0, 0.06) 33.3%, rgba(0, 0, 0, 0.06) 66.6%,rgba(140, 140, 140, 0.06) 66.6%, rgba(140, 140, 140, 0.06) 99.89999999999999%),linear-gradient(323deg, rgba(40, 40, 40, 0.07) 0%, rgba(40, 40, 40, 0.07) 33.3%,rgba(214, 214, 214, 0.07) 33.3%, rgba(214, 214, 214, 0.07) 66.6%,rgba(190, 190, 190, 0.07) 66.6%, rgba(190, 190, 190, 0.07) 99.89999999999999%),linear-gradient(61deg, rgba(230, 230, 230, 0) 0%, rgba(230, 230, 230, 0) 33.3%,rgba(241, 241, 241, 0) 33.3%, rgba(241, 241, 241, 0) 66.6%,rgba(55, 55, 55, 0) 66.6%, rgba(55, 55, 55, 0) 99%),linear-gradient(0deg, #2625e3,#0bbaef);
+  position: relative;
+  color: #ccc;
+}
+.dec{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 200px;
+  height: auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.image-item:hover img {
+  transform: scale(1.1);
+}
+
+.image-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-item:hover .overlay {
+  opacity: 1;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit of transparency */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc.) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Active dot */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d9e2f7;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  p:last-child {
+    font-size: 12px;
+    color: #888;
+  }
+  /* Styles pour les écrans plus petits */
+@media screen and (max-width: 600px) {
+    form {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    input[type="email"],
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button[type="submit"] {
+      width: 100%;
+    }
+    .img-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap:20px;
+    }
+  }
+  
+  /* Styles pour les écrans plus grands */
+  @media screen and (min-width: 300px) {
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    input[type="email"],
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    button[type="submit"] {
+      width: auto;
+    }
+    .img-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap:20px;
+    }
+  }
+    
+    
